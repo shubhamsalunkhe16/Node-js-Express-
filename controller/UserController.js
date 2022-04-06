@@ -17,8 +17,6 @@ router.post("/add-user", addUser);
 
 router.post("/update-user/:userId", updateUserById);
 
-router.post("/update-user/:userId", updateUserById);
-
 router.get("/update-user-status/:userId", activateOrDeactivateUserById);
 
 module.exports = router;
